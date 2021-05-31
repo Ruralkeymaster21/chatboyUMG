@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "tag": "saludos",
+      "patterns": [
+        "Hola",
+        "Buenas",
+        "Buenos Dias",
+        "Disculpe",
+        "Perdone"
+      ],
+      "responses": [
+        "Hola es un gusto servirle",
+        "Hola, gracias por visitarnos",
+        "Hola en que puedo ayudarte?",
+        "Hola Bienvenido a La Universidad Mariano Galves de Mazatenango en que puedo ayudarte"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Adios", "Gracias por todo ", "Feliz dia ", "Feliz tarde ", "Feliz Noche ", "Nos vemos " ],
+      "responses": [
+        "Vuelve pronto ",
+        "Estoy para servirte ",
+        "Nos vemos ",
+        "Esperamos que vuelvas pronto "
+      ]
+    },
+    {
+      "tag": "gratitudes",
+      "patterns": ["gracias", 
+        "gracias a ti", 
+        "gracias por la ayuda", 
+        "Gracias por la informacion", 
+        "bendiciones",
+        "Feliz dia "],
+        
+      "responses": ["Me Alegra serte de ayuda", "Es un placer", "de nada !Feliz Dia! "]
+    },
+    {
+      "tag": "carreras",
+      "patterns": [
+        "Que carreras tiene la Universidad Mariano Galvez", 
+        "Que opciones  de estudio tienen", 
+        "Tiene alguna carrera que me pueda interezar",
+        "Que carreras hay"],
+
+      "responses": [
+        "La Universidad Mariano Galvez Cuenta con las siguinetes opciones :\n Administracion de Empresas, Ciencias Juridicas y Sociales, \n Administracion Publica Municipal, Gestion publica, Administracion Educativacon especializacion en Gerencia de Calidad,\n Contaduria Publica y Auditoria, Ingenieria en Sistemas, Psicologia Clinica ",
+        "Te interesa alguna de estas :\n Administracion de Empresas, Ciencias Juridicas y Sociales, \n Administracion Publica Municipal, Gestion publica, Administracion Educativacon especializacion en Gerencia de Calidad, \n Contaduria Publica y Auditoria, Ingenieria en Sistemas, Psicologia Clinica ",
+        "Puede que te interesen las siguientes: \n Administracion de Empresas, Ciencias Juridicas y Sociales, \n Administracion Publica Municipal, Gestion publica, Administracion Educativacon especializacion en Gerencia de Calidad, \n Contaduria Publica y Auditoria, Ingenieria en Sistemas, Psicologia Clinica "
+      
+      ]
+    },
+    {
+      "tag": "requisitos",
+      "patterns": [
+        "Cuales son los requisitos",
+        "Cual es la papeleria ",
+        "Que necesito para inscribirme",
+        "Que datos se necesitan "
+      ],
+      "responses": [
+        "Es necesario que te acerques a las oficinas con lo siguiente:\n Fotocopia de DPI, Fotostatica de tu titulo, una fotografia tamaño cedula, Certificado de cursos de nivel medio  ", 
+        "Lleva la siguiente papeleria: \n Fotocopia de DPI, Fotostatica de tu titulo, una fotografia tamaño cedula, Certificado de cursos de nivel medio",
+       "Tienes que contar con lo siguiente para inscribirte:\n  Fotocopia de DPI, Fotostatica de tu titulo, una fotografia tamaño cedula, Certificado de cursos de nivel medio"
+      ]
+    },
+    {
+      "tag": "planes",
+      "patterns": [
+        "con que planes de estudio cuentan",
+        "Con que planes de estudio cuenta la universidad",
+        "Que planes disponen"],
+      "responses": [
+        "Plan diario: jueves, viernes y sabado \n plan fin de semana: sabado o domingo"
+      ]
+    },
+    {
+      "tag": "pagos",
+      "patterns": [
+        "Cuanto se paga de inscripcion",
+        "Cuanto es de inscripcion",
+        "La Inscripcion de cuento es",
+        "De cuanto es la mensualidad",
+        "Cuanto se paga de mensualidad" 
+      ],
+      "responses": ["Para Ingenieria industrial = La Inscripcion es de  Q.600.00 y una Mensualidad de Q.630.00. \n Para Ingenieria en Sistemas, Administracion de Empresas, Ciencias Juridicas y Sociales = La Inscripcion es de  Q.530.000 y una Mensualidad de Q.510.00. \n Para Contaduria publica y Auditoria , Psicologia Clinica = La Inscripcion es de Q.530.00 y una Mensualidad de Q.485.00. \n Para Licenciatura Administracion Educativa, PEM Especializado en Educacion Primaria = La Inscripcion es de Q.495.00 y una Mensualidad de Q.485.00.\n Para PEM con Especialidades en: Comunicacion y Lenguaje , Fiscia y Matematicas, Tecnologia Educativa, Formacion Ciudadana Ciencias Sociales = La Inscripcion es de   Q.495.00 y una Mensualidad de Q.450.00."
+      ]
+    },
+    {
+      "tag": "Estudiante",
+      "patterns":  [ "Rocket Quien te Creo "],
+      "responses": [
+        "Mi Creador Fue : \n Kevin Omar Gonzalez Boya \n Carne: 3090-15-13224 \n !Cool no! "
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns":  [ "Necesito ayuda ","necesito informacion"],
+      "responses": [
+        "Que necesitas saber ?",
+        "Que informacion necesitas?"
+      ]
+    },
+    {
+      "tag": "telefonos",
+      "patterns":  [ "Cuales son los numeros telefonicos de la Oficina", "numeros telefonicos de la oficina"],
+      "responses": [
+        " Los Numeros son: \n 7867-9295 \n o Tambien \n 7872-6854"
+      ]
+    },
+    {
+      "tag": "horariosdeatencion",
+      "patterns":  [ "Horarios de Atencion de las Oficinas  "," A que hora abren las oficinas"],
+      "responses": [
+          " De Lunes a Viernes: 14:00 a 20:00 Hrs.\n Sabados: 08:00 13:00 Hrs y 14:00 a 17:00 Hrs."
+      ]
+    }
+  ]
+}
